@@ -62,7 +62,7 @@ window.addEventListener("keyup", (e) => {
 
 // ================= MAPA =================
 loader.load(
-  "./assets/chicken_gun_fruzer_megapolis.glb",
+  "assets/race_track_23mb_glb",
   (gltf) => {
     city = gltf.scene;
 
@@ -81,7 +81,7 @@ loader.load(
 
 // ================= CARRO =================
 loader.load(
-  "./assets/1999_nissan_skyline_gtr_r34_c-west__2f2f.glb",
+  "assets/1999_nissan_skyline_gtr_r34_c-west__2f2f.glb",
   (gltf) => {
     car = gltf.scene;
 
